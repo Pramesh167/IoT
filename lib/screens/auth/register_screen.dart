@@ -282,7 +282,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     width: double.infinity,
                     child: ElevatedButton(
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.deepOrangeAccent),
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.red.shade900),
 
                           shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                               RoundedRectangleBorder(
@@ -309,7 +309,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           onTap: (){
                             Navigator.of(context).pop();
                           },
-                          child: Text("Sign in", style: TextStyle(color: Colors.deepOrangeAccent),))
+                          child: Text("Sign in", style: TextStyle(color: Colors.red.shade900),))
                     ],
                   ),
 

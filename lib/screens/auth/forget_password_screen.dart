@@ -81,8 +81,8 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                     width: double.infinity,
                     child: ElevatedButton(
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.deepOrangeAccent),
-                          shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(20), side: BorderSide(color: Colors.deepOrangeAccent))),
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.red.shade900),
+                          shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(20), side: BorderSide(color: Colors.red.shade900))),
                           padding: MaterialStateProperty.all<EdgeInsets>(EdgeInsets.symmetric(vertical: 20)),
                         ),
                         onPressed: () {
@@ -109,7 +109,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
                           },
                           child: Text(
                             "Sign In",
-                            style: TextStyle(color: Colors.deepOrangeAccent),
+                            style: TextStyle(color: Colors.red.shade900),
                           ))
                     ],
                   ),

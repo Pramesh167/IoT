@@ -52,7 +52,7 @@ class _SplashScreenState extends State<SplashScreen> {
             children: [
               Image.asset("assets/images/splash.gif"),
               SizedBox(height: 100,),
-              Text("Instacart", style: TextStyle(
+              Text("NestGuard 0.0.1", style: TextStyle(
                   fontSize: 22
               ),)
             ],
