@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "207963067009",
+    "project_id": "iot-43c2f",
+    "storage_bucket": "iot-43c2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207963067009:android:a537f3f59218135450f380",
+        "android_client_info": {
+          "package_name": "com.example.grocery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7XrJpW-SGdb8W4ddN8C6wxsCnpyWcGqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
